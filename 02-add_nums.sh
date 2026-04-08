@@ -1,9 +1,4 @@
-xecho "Enter width"
-read width
-
-echo "Enter ixels=$(( width * height ))
-x
-echo "Total pixels: $pixels"#!/bin/sh
+#!/bin/sh
 
 echo "Enter your first number"
 read first
@@ -23,6 +18,14 @@ read height
 pixel=$(( width*height))
 
 echo "You have $pixel pixels"
+
+echo "Type the width RIGHT NOW"
+read width
+echo "Type the height RIGHT NOW"
+read height
+pixels=$(( width*height ))
+echo "Total pixels: $pixels"
+
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
