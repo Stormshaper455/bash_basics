@@ -1,4 +1,9 @@
-#!/bin/sh
+xecho "Enter width"
+read width
+
+echo "Enter ixels=$(( width * height ))
+x
+echo "Total pixels: $pixels"#!/bin/sh
 
 echo "Enter your first number"
 read first
